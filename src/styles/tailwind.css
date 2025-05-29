@@ -1,0 +1,17 @@
+/* This file contains styles for the web version of the app */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for web */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}

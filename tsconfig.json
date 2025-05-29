@@ -1,11 +1,14 @@
 {
-  "extends": "expo-module-scripts/tsconfig.plugin.json",
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*"
+  ],
   "compilerOptions": {
     "module": "Node16",
+    "moduleResolution": "Node16",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "rootDir": "src",
-    "declaration": false,
-  }
+    "declaration": false
+  },
+  "extends": "expo/tsconfig.base"
 }
